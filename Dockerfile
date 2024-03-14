@@ -1,0 +1,3 @@
+FROM tomcat:8
+
+COPY sparkjava-hello-world-1.0.war /usr/local/tomcat/webapps/
